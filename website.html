@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Quiz</h1>
+      <p>Test your knowledge with this quiz!</p>
+      <form id="quiz-form">
+        <div class="question">
+          <h2>Question 1</h2>
+          <p>What is the capital of France?</p>
+          <ul>
+            <li><input type="radio" name="q1" value="a" />a) London</li>
+            <li><input type="radio" name="q1" value="b" />b) Paris</li>
+            <li><input type="radio" name="q1" value="c" />c) Berlin</li>
+          </ul>
+        </div>
+        <div class="question">
+          <h2>Question 2</h2>
+          <p>What is the largest continent?</p>
+          <ul>
+            <li><input type="radio" name="q2" value="a" />a) Europe</li>
+            <li><input type="radio" name="q2" value="b" />b) Asia</li>
+            <li><input type="radio" name="q2" value="c" />c) Africa</li>
+          </ul>
+        </div>
+        <input type="submit" value="Submit" />
+      </form>
+      <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
